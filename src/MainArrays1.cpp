@@ -4,12 +4,10 @@
 int main(){
 
 	//Test RemoveArraysDuplicates
-	/*
-	int arr[3] = { 1, 2, 7 };
-	int len = removeArrayDuplicates(arr, 3);
-	printf("%d", len);
+	/**
+	int arr[6] = { 1,1,2,2,3,3 };
+	int len = removeArrayDuplicates(arr, 6);
 	*/
-
 	//Test Students Count
 	/*
 	int arr2[3]={1,4,10};

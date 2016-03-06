@@ -17,7 +17,7 @@ NOTES: Don't create new array, try to change the input array.
 void quicksort(int *Arr, int first, int last);
 
 void quicksort(int *Arr, int first, int last){
-	int pivot, j, temp, i;
+	int pivot=0, j=0, temp=0, i=0;
 
 	if (first<last){
 		pivot = first;
@@ -48,7 +48,7 @@ int removeArrayDuplicates(int *Arr, int len)
 {
 	if (Arr == NULL || len < 0)
 		return -1;
-	quicksort(Arr, 0, len);
+	quicksort(Arr, 0, len-1);
 
 	int res = 1, i = 0, len1 = len;
 	for (i = 1; i<len; i++)
